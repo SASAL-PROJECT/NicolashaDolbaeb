@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<OutputType>Exe</OutputType>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Algorithms\1BubbleSort\" />
+		<Folder Include="Algorithms\2InsertionSort\" />
+		<Folder Include="Algorithms\3SelectionSort\" />
+		<Folder Include="Algorithms\4ShakerSort\" />
+		<Folder Include="Algorithms\5ShellSort\" />
+		<Folder Include="Algorithms\7QuickSort\" />
+		<Folder Include="Algorithms\ExternalMergeSort\" />
+		<Folder Include="Algorithms\9BinaryTreeSort\" />
+		<Folder Include="Algorithms\RadixSort\" />
+		<Folder Include="Algorithms\HashTableChaining\" />
+		<Folder Include="Algorithms\HashTableOpenAddressing\" />
+		<Folder Include="Algorithms\Stack\" />
+		<Folder Include="Algorithms\Queue\" />
+		<Folder Include="Algorithms\Kruskal\" />
+		<Folder Include="Algorithms\Prim\" />
+		<Folder Include="Algorithms\Dfs\" />
+		<Folder Include="Algorithms\Bfs\" />
+		<Folder Include="Algorithms\Dijkstra\" />
+		<Folder Include="Common\" />
+		<Folder Include="Tests\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+		<PackageReference Include="coverlet.collector" Version="3.1.0" />
+		<PackageReference Include="xunit" Version="2.4.1" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
+	</ItemGroup>
+
+</Project>
